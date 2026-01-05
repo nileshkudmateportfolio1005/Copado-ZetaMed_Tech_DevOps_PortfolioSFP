@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_SR_ResolutionNotes_OnClosed_Required</fullName>
+    <active>true</active>
+    <description>Ensures Resolution Notes are provided when Status is &apos;Closed&apos;.</description>
+    <errorConditionFormula>AND
+    (
+       ISBLANK( Resolution_Notes__c ) ,
+       ISPICKVAL( Status__c , &quot;Closed&quot;) ,
+       RecordType.Name = &quot;Repair&quot;
+     )</errorConditionFormula>
+    <errorDisplayField>Resolution_Notes__c</errorDisplayField>
+    <errorMessage>Resolution Notes required when closing a request.</errorMessage>
+</ValidationRule>

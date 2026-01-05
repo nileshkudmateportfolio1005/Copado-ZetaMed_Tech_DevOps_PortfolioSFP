@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_SR_Instrument_Required</fullName>
+    <active>true</active>
+    <description>Ensures an Instrument is selected for the request</description>
+    <errorConditionFormula>ISBLANK( Instrument__c )</errorConditionFormula>
+    <errorDisplayField>Instrument__c</errorDisplayField>
+    <errorMessage>An Instrument is required.</errorMessage>
+</ValidationRule>
