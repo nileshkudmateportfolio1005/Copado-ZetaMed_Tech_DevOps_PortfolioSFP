@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Consumable_Order_Approval_Assignment</name>
+    <style>none</style>
+    <subject>Approval request for Consumable Order {!Consumable_Order__c.Name}</subject>
+    <textOnly>Hello {!User.Name},
+
+A consumable order requires your approval.
+
+Instrument Name: {!Consumable_Order__c.Instrument_Name__c}
+Order Name: {!Consumable_Order__c.Name}
+Order Date: {!Consumable_Order__c.Order_Date__c}
+Order Amount: {!Consumable_Order__c.Order_Amount__c}
+Requested By: {!Consumable_Order__c.Requested_By__c}
+
+
+To review this order, click here: {!ApprovalRequest.External_URL}
+
+Comments from the submitter:
+{!ApprovalRequest.Comments}
+
+Thank you,
+ZetaMed Tech Approval System</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
