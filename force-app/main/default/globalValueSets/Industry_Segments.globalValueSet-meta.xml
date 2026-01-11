@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Healthcare &amp; Life Sciences</fullName>
+        <default>false</default>
+        <label>Healthcare &amp; Life Sciences</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmaceuticals &amp; Biotechnology</fullName>
+        <default>false</default>
+        <label>Pharmaceuticals &amp; Biotechnology</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Devices &amp; Equipment</fullName>
+        <default>false</default>
+        <label>Medical Devices &amp; Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Information Technology &amp; Software</fullName>
+        <default>false</default>
+        <label>Information Technology &amp; Software</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Services</fullName>
+        <default>false</default>
+        <label>Financial Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Manufacturing &amp; Industrial</fullName>
+        <default>false</default>
+        <label>Manufacturing &amp; Industrial</label>
+    </customValue>
+    <customValue>
+        <fullName>Retail &amp; Consumer Goods</fullName>
+        <default>false</default>
+        <label>Retail &amp; Consumer Goods</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy &amp; Utilities</fullName>
+        <default>false</default>
+        <label>Energy &amp; Utilities</label>
+    </customValue>
+    <customValue>
+        <fullName>Telecommunications</fullName>
+        <default>false</default>
+        <label>Telecommunications</label>
+    </customValue>
+    <customValue>
+        <fullName>Transportation &amp; Logistics</fullName>
+        <default>false</default>
+        <label>Transportation &amp; Logistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Education &amp; Research</fullName>
+        <default>false</default>
+        <label>Education &amp; Research</label>
+    </customValue>
+    <customValue>
+        <fullName>Government &amp; Public Sector</fullName>
+        <default>false</default>
+        <label>Government &amp; Public Sector</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Profit Organizations</fullName>
+        <default>false</default>
+        <label>Non-Profit Organizations</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Services</fullName>
+        <default>false</default>
+        <label>Professional Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospitality &amp; Leisure</fullName>
+        <default>false</default>
+        <label>Hospitality &amp; Leisure</label>
+    </customValue>
+    <customValue>
+        <fullName>Agriculture &amp; Food</fullName>
+        <default>false</default>
+        <label>Agriculture &amp; Food</label>
+    </customValue>
+    <masterLabel>Industry Segments</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
