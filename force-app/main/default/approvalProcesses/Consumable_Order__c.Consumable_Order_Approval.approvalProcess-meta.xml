@@ -118,20 +118,12 @@
     </entryCriteria>
     <finalApprovalActions>
         <action>
-            <name>Consumable_Order_Approved_Notify_Requester</name>
-            <type>Alert</type>
-        </action>
-        <action>
             <name>Set_Status_Approved</name>
             <type>FieldUpdate</type>
         </action>
     </finalApprovalActions>
     <finalApprovalRecordLock>false</finalApprovalRecordLock>
     <finalRejectionActions>
-        <action>
-            <name>Consumable_Order_Rejected_Notify_Requester</name>
-            <type>Alert</type>
-        </action>
         <action>
             <name>Set_Status_Rejected</name>
             <type>FieldUpdate</type>
@@ -140,10 +132,6 @@
     <finalRejectionRecordLock>false</finalRejectionRecordLock>
     <initialSubmissionActions>
         <action>
-            <name>Consumable_Order_Submitted_for_Approval</name>
-            <type>Alert</type>
-        </action>
-        <action>
             <name>Set_Status_Submitted</name>
             <type>FieldUpdate</type>
         </action>
@@ -151,10 +139,6 @@
     <label>Consumable Order Approval</label>
     <processOrder>1</processOrder>
     <recallActions>
-        <action>
-            <name>Consumable_Order_Recalled_Notify_Requester</name>
-            <type>Alert</type>
-        </action>
         <action>
             <name>Set_Status_Draft_On_Recall</name>
             <type>FieldUpdate</type>
