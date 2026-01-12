@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_CO_RequestedBy_Required</fullName>
+    <active>true</active>
+    <description>Knowing who requested the order is essential to creating an order.</description>
+    <errorConditionFormula>ISBLANK( Requested_By__c )</errorConditionFormula>
+    <errorDisplayField>Requested_By__c</errorDisplayField>
+    <errorMessage>Please ensure the requesting person for the order.</errorMessage>
+</ValidationRule>
