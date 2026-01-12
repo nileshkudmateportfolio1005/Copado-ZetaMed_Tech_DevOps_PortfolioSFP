@@ -9,6 +9,7 @@
     <tabs>standard-Case</tabs>
     <tabs>Service_Request__c</tabs>
     <tabs>Instrument__c</tabs>
+    <tabs>Consumable_Order__c</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-ServiceContract</tabs>
