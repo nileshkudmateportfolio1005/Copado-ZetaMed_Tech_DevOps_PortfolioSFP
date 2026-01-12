@@ -1,0 +1,18 @@
+Hello,<br/><br/>
+
+A consumable order requires your approval.<br/><br/>
+Please log in to Salesforce, open the Consumable Orders tab, and review the record assigned to you.<br/><ul>
+<p><li>Order Name: {!Consumable_Order__c.Name}<br/></p>
+<p><li>Instrument Name: {!Consumable_Order__c.Instrument_Name__c}<br/></p>
+<p><li>Order Date: {!Consumable_Order__c.Order_Date__c}<br/></p>
+<p><li>Order Amount: {!Consumable_Order__c.Order_Amount__c}<br/></p>
+<p><li>Requested By: {!Consumable_Order__c.Requested_By__c}<br/><br/><br/></p></ul>
+
+
+
+Comments from the submitter:<br/>
+<br/><br/>
+
+
+Thank you,<br/>
+ZetaMed Tech Approval System
