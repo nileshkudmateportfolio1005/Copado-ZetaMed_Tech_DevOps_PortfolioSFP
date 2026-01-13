@@ -109,41 +109,10 @@
     <description>Manages sequential or parallel approval of consumable order requests.</description>
     <emailTemplate>unfiled$public/Consumable_Order_Approval_Assignment</emailTemplate>
     <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
-    <entryCriteria>
-        <criteriaItems>
-            <field>Consumable_Order__c.Status__c</field>
-            <operation>equals</operation>
-            <value>Submitted</value>
-        </criteriaItems>
-    </entryCriteria>
-    <finalApprovalActions>
-        <action>
-            <name>Set_Status_Approved</name>
-            <type>FieldUpdate</type>
-        </action>
-    </finalApprovalActions>
     <finalApprovalRecordLock>false</finalApprovalRecordLock>
-    <finalRejectionActions>
-        <action>
-            <name>Set_Status_Rejected</name>
-            <type>FieldUpdate</type>
-        </action>
-    </finalRejectionActions>
     <finalRejectionRecordLock>false</finalRejectionRecordLock>
-    <initialSubmissionActions>
-        <action>
-            <name>Set_Status_Submitted</name>
-            <type>FieldUpdate</type>
-        </action>
-    </initialSubmissionActions>
     <label>Consumable Order Approval</label>
     <processOrder>1</processOrder>
-    <recallActions>
-        <action>
-            <name>Set_Status_Draft_On_Recall</name>
-            <type>FieldUpdate</type>
-        </action>
-    </recallActions>
     <recordEditability>AdminOrCurrentApprover</recordEditability>
     <showApprovalHistory>true</showApprovalHistory>
 </ApprovalProcess>
